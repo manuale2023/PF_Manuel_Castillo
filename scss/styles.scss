@@ -1,0 +1,89 @@
+$primary-color: #25403B; 
+$secondary-color: #e2e5c2;
+$terciary-color: #e5c2c7;
+$primary-font: 'Arial', sans-serif;
+$secondary-font: 'Georgia', serif;
+$font-size-small: 14px;
+$font-size-medium: 16px;
+$font-size-large: 18px;
+
+/*Condicional IF*/
+
+
+body {background-color: $secondary-color;margin: 0;padding: 0;}
+  
+  .ingresar {background-color:#005210;
+    color: #e2e5c2; 
+    font-size: 20px;
+    padding: 20px 20px; 
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  .ingresar.clicked {
+    background-color: rgb(93, 82, 2);
+  }
+
+  
+  .ingresar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+  }
+  
+  .contactar {
+    background-color: #005210;
+    color: #e2e5c2; 
+    font-size: 20px;
+    padding: 20px 20px;
+    margin: 0 auto;
+  }
+  
+  .contactar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  img {
+      position: center;
+      top: 10cm;
+      left: 15cm;
+      bottom: 10cm;
+      margin: 40px;
+    }
+    
+  .logo {
+    position: static;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .acercadenosotros { font-size: 30px;font-family: 'Times New Roman', Times, serif, sans-serif;}
+  
+  .Texto { font-size: 25px;font-family: Arial, sans-serif;}
+  
+  
+  /*Mediaqueries*/
+  
+  @media screen and (min-width: 0px) and (max-width: 480px) {
+    body {
+      background-color: #dcdf86; 
+      margin: 0; 
+      padding: 0; 
+    }
+  
+    .Texto { font-size: 15px;font-family: Lucida Sans Regular; } 
+  
+  } 
+
+  
+
+   
